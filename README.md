@@ -1,8 +1,14 @@
+[《Linux 多线程服务端编程——使用 muduo C++ 网络库》](http://chenshuo.com/book)配套代码 [bookcode.tar.gz](https://github.com/downloads/chenshuo/documents/bookcode.tar.gz) [bookcode.tar.bz2](https://github.com/downloads/chenshuo/documents/bookcode.tar.bz2)
+
+[《Linux 多线程服务端编程——使用 muduo C++ 网络库》](http://chenshuo.com/book)样章下载：
+
 [《Linux 多线程服务端编程——使用 muduo C++ 网络库》前言与目录](https://github.com/downloads/chenshuo/documents/preamble.pdf)
+
+[《Linux 多线程服务端编程——使用 muduo C++ 网络库》第1章](https://github.com/downloads/chenshuo/documents/chap1.pdf)
 
 [《Linux 多线程服务端编程——使用 muduo C++ 网络库》附录](https://github.com/downloads/chenshuo/documents/appendix.pdf)
 
-[《Linux 多线程服务端编程——使用 muduo C++ 网络库》](http://chenshuo.com/book)配套代码 [bookcode.tar.gz](https://github.com/downloads/chenshuo/documents/bookcode.tar.gz) [bookcode.tar.bz2](https://github.com/downloads/chenshuo/documents/bookcode.tar.bz2)
+其他文章：
 
 [从《C++ Primer 第四版》入手学习C++](https://github.com/downloads/chenshuo/documents/LearnCpp.pdf)（2012-07-11更新，收入[《Linux 多线程服务端编程》](http://chenshuo.com/book)附录B）
 
