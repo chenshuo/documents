@@ -1,3 +1,15 @@
+
+
+| family | type | protocol |
+| --- | --- | --- |
+| AF_UNIX=1 | SOCK_STREAM=1 | 0
+| AF_UNIX | SOCK_DGRAM=2 | 0
+| AF_INET=2 | SOCK_STREAM | IPPROTO_TCP=6 |
+| AF_INET | SOCK_DGRAM | IPPROTO_UDP=17 |
+| AF_INET | SOCK_DGRAM | IPPROTO_ICMP=1 |
+| AF_INET | SOCK_RAW=3 | IPPROTO_IP=0 |
+| NPROTO=AF_MAX=41 | SOCK_MAX=11 | no max?|
+
 # net_proto_family
 
 ```c
