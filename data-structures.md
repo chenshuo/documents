@@ -49,6 +49,14 @@ int sys_socket(int family, int type, int protocol)
         -> new_inode_pseudo(super_block of sockfs)      // fs/inode.c
       -> net_families[family]->create(sock, protocol)
         -> inet_create(sock, protocol)                  // net/ipv4/af_inet.c
+
+inet_create(sock, protocol)
+  -> find inet_protosw for sock->type & protocol
+  -> struct sock* sk = sk_alloc()
+    -> sk_prot_alloc -> kmem_cache_alloc (tcp_prot is 1296B)
+  -> sock_init_data
+  -> sk->sk_prot->init(sk)
+    -> tcp_v4_init_sock
 ```
 
 # inet_protosw
