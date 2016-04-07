@@ -128,3 +128,4 @@ static struct inet_protosw inetsw_array[] =
   for (struct inet_protosw *q = inetsw_array; q < &inetsw_array[INETSW_ARRAY_LEN]; ++q)
     inet_register_protosw(q);
 ```
+![inetsw](inetsw.png)
