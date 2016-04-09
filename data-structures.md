@@ -139,3 +139,8 @@ static struct inet_protosw inetsw_array[] =
 
 After Initialization:
 ![inetsw](inetsw.png)
+
+# skbuff
+![](skbuff.png)
+
+
