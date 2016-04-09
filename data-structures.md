@@ -141,6 +141,7 @@ After Initialization:
 ![inetsw](inetsw.png)
 
 # skbuff
+A sample of receive skb for TCP SYN segment:
 ![](skbuff.png)
 
 
