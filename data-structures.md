@@ -49,6 +49,7 @@ int sys_socket(int family, int type, int protocol)
         -> new_inode_pseudo(super_block of sockfs)      // fs/inode.c
       -> net_families[family]->create(sock, protocol)
         -> inet_create(sock, protocol)                  // net/ipv4/af_inet.c
+  -> sock_map_fd()
 
 inet_create(sock, protocol)
   -> find inet_protosw for sock->type & protocol
