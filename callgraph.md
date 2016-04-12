@@ -29,6 +29,8 @@ sys_listen
         -> __inet_hash  // tcp_hashinfo.listening_hash[X] add node
 ```
 
+![after bind() and listen()](bhash.png)
+
 # connect
 
 # tcp_v4_rcv
