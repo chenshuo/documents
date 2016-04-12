@@ -8,6 +8,7 @@ sys_bind
         -> inet_bind_bucket_create
       -> goto success:
         -> inet_bind_hash
+          -> sk_add_bind_node
   -> fput_light
 ```
 
